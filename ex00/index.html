@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali Al-Zoubi | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header" id="top">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="logo" href="#top">Ali Al-Zoubi</a>
+
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <button id="theme-toggle" type="button" aria-pressed="false">
+                Switch Theme
+            </button>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="about-section" id="about">
+            <div class="about-content">
+                <h1>Hi, I'm Ali Al-Zoubi</h1>
+
+                <p class="intro">
+                    Computer Science graduate interested in web development,
+                    programming, and solving technical problems.
+                </p>
+
+                <p>
+                    I graduated from Yarmouk University with a degree in Computer
+                    Science. I enjoy learning new technologies and using what I
+                    learn to build practical projects. I am working on improving
+                    my development skills by practising and building projects
+                    from scratch.
+                </p>
+
+                <a href="#projects">View My Projects</a>
+            </div>
+
+            <img
+                class="profile-photo"
+                src="assets/profile.jpg"
+                alt="Portrait of Ali Al-Zoubi"
+            >
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML</h3>
+                    <p>Structuring webpages with HTML elements.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS</h3>
+                    <p>Styling webpages and building responsive layouts.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Working with functions, events, and the DOM.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Python</h3>
+                    <p>Writing programs and solving problems.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>C# and Java</h3>
+                    <p>Practising object-oriented programming.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Git and Linux</h3>
+                    <p>Using the terminal, version control, and GitHub.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Project 00 — Linux and Git</h3>
+                    <p>
+                        Practised Linux commands, file manipulation, Git
+                        repositories, commits, and uploading work to GitHub.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Project 01 — HTML Fundamentals</h3>
+                    <p>
+                        Created HTML pages using headings, paragraphs,
+                        links, images, lists, tables, forms, and semantic elements.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Project 02 — CSS</h3>
+                    <p>
+                        Practised Flexbox, positioning, CSS shapes, colours,
+                        opacity, and the box model.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <h3>Project 03 — JavaScript</h3>
+                    <p>
+                        Practised variables, functions, conditions, DOM
+                        manipulation, events, a counter, and a task manager.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section id="hobbies">
+            <h2>My Interests</h2>
+
+            <div class="hobbies-list">
+                <p>Learning new technologies</p>
+                <p>Solving programming problems</p>
+                <p>Building practical projects</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>
+                Have a question or want to discuss a project?
+                You can reach me using the form below or by email.
+            </p>
+
+            <form id="contact-form">
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                >
+
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                >
+
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                ></textarea>
+
+                <button type="submit">Submit Message</button>
+                <p id="form-status" role="status"></p>
+            </form>
+
+            <p>
+                Email:
+                <a href="mailto:alialzoubi900@gmail.com">
+                    alialzoubi900@gmail.com
+                </a>
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ali Al-Zoubi. Personal Portfolio.</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+
+</body>
+</html>
